@@ -207,7 +207,9 @@ p {
 
 
 @media screen and (min-aspect-ratio: 4/3) {
+  /* not mobile */
     body {
+
         background-size: 100% auto;
     }
     body:before {
@@ -238,8 +240,12 @@ p {
         }
     }
 }
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 700px) {
+  body{
+    background: #4f5065 url("https://www.wallpapertip.com/wmimgs/4-49128_4k-cell-phone-wallpaper-minimalist-naruto-wallpaper-for.jpg") no-repeat center center fixed;
+  }
 	.profile-card {
+    width: 100%;
 		-webkit-animation: init 0.5s 0.2s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, moveDown 1s 0.8s cubic-bezier(0.6, -0.28, 0.735, 0.045) forwards, moveUp 1s 1.8s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards, materia_portrait 0.5s 2.7s cubic-bezier(0.86, 0, 0.07, 1) forwards;
 		animation: init 0.5s 0.2s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, moveDown 1s 0.8s cubic-bezier(0.6, -0.28, 0.735, 0.045) forwards, moveUp 1s 1.8s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards, materia_portrait 0.5s 2.7s cubic-bezier(0.86, 0, 0.07, 1) forwards;
 	}
@@ -266,6 +272,7 @@ p {
 }
 @media screen and (min-aspect-ratio: 4/3) {
     body {
+
         background-size: 100% auto;
     }
     body:before {
