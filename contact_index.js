@@ -11,7 +11,7 @@ window.addEventListener("DOMContentLoaded", event => {
 var delayInMilliseconds = 10000; //1 second
 
 setTimeout(function() {
-$("h2").text("to change the body background-color")
+$("h2").text("Bazingaa")
 }, delayInMilliseconds);
 
 $(".twitter").hover(function () {
