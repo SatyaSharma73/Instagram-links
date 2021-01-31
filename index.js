@@ -1,5 +1,5 @@
 window.addEventListener("DOMContentLoaded", event => {
-  const audio = document.querySelector("audio");
-  audio.volume = 0.5;
+  var audio=new Audio("Audio/note.mp3");
+  audio.volume = 0.2;
   audio.play();
 });
