@@ -11,7 +11,7 @@ window.addEventListener("DOMContentLoaded", event => {
   // audio.volume = 0.2;
   // audio.play();
 
- const audio_number=Math.floor(Math.random() * 8);
+ const audio_number=Math.floor(Math.random() * 7);
  if(audio_number===0){
    var audio=new Audio("Audio/Guren.mp3");
    audio.volume = 0.5;
@@ -33,7 +33,7 @@ window.addEventListener("DOMContentLoaded", event => {
    audio.play();
  }
  else if(audio_number===4){
-   var audio=new Audio("Audio/note.mp3");
+   var audio=new Audio("Audio/Sasuke.mp3");
    audio.volume = 0.5;
    audio.play();
  }
@@ -42,13 +42,8 @@ window.addEventListener("DOMContentLoaded", event => {
    audio.volume = 0.5;
    audio.play();
  }
- else if(audio_number===6){
-   var audio=new Audio("Audio/Samidare.mp3");
-   audio.volume = 0.5;
-   audio.play();
- }
  else{
-   var audio=new Audio("Audio/Sasuke.mp3");
+   var audio=new Audio("Audio/Samidare.mp3");
    audio.volume = 0.5;
    audio.play();
  }
