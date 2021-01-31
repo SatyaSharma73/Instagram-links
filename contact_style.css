@@ -5,12 +5,15 @@ h1, h2 {
 }
 h1 {
     color: rgba(0,0,0,.8);
+
 }
 
 h2 {
-
+  font-family: 'Press Start 2P', cursive;
+  padding-top: 10px;
   color:white;
 }
+
 footer{
   text-align: center;
   font-family: 'Permanent Marker', cursive;
@@ -28,7 +31,7 @@ footer{
 
 /* Add this ID to a section or something you want to change the background-color */
 #social-section {
-  background-color: #7c9473;
+  background-color: #16c79a;
   padding:50px 0;
   -webkit-transition: all .2s ease-out;
 -moz-transition: all .2s ease-out;
@@ -58,7 +61,10 @@ margin-right: 15px;
 border: 2px solid rgba(255,255,255,.3);
 color: rgba(255,255,255,.6);
 }
-
+.opening-text{
+  font-family: 'Montez', cursive;
+  font-size: 4rem;
+}
 /* Hover background colors */
 .color-twitter {
   background-color: #00aced !important;

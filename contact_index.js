@@ -112,5 +112,57 @@ $(".linkedin").hover(function () {
 	$("#social-section").toggleClass("color-linkedin")
 	$("h2").text("linkedin")
 	$("h1").css("color", "Black");
+
 	setTimeout(1)
 });
+
+//For Button only
+// $(".twitter").hover(function () {
+// 	$(".twitter").toggleClass("color-twitter")
+// 	$("h2").text("Twitter")
+// 	$("h1").css("color", "Black");
+//   setTimeout(1)
+// });
+//
+// $(".facebook").hover(function () {
+// 	$(".facebook").toggleClass("color-facebook")
+// 	$("h2").text("Facebook")
+// 	$("h1").css("color", "Black");
+//   setTimeout(1)
+// });
+//
+// $(".googleplus").hover(function () {
+// 	$(".googleplus").toggleClass("color-googleplus")
+// 	$("h2").text("Google+")
+// 	$("h1").css("color", "Black");
+// 	setTimeout(1)
+// });
+//
+// $(".github").hover(function () {
+// 	$(".github").toggleClass("color-github")
+// 	$("h2").text("GitHub")
+// 	 $("h1").css("color", "white");
+// 		setTimeout(1)
+// });
+//
+// $(".pinterest").hover(function () {
+// 	$(".pinterest").toggleClass("color-pinterest")
+// 	$("h2").text("Pinterest")
+// 	$("h1").css("color", "Black");
+// 	setTimeout(1)
+// });
+//
+//
+// $(".instagram").hover(function () {
+// 	$(".instagram").toggleClass("color-instagram")
+// 	$("h2").text("Instagram")
+// 	$("h1").css("color", "Black");
+// 	setTimeout(1)
+// });
+//
+// $(".linkedin").hover(function () {
+// 	$(".linkedin").toggleClass("color-linkedin")
+// 	$("h2").text("linkedin")
+// 	$("h1").css("color", "Black");
+// 	setTimeout(1)
+// });
